@@ -1,0 +1,29 @@
+@import "_calc-button.scss";
+@import "_calc-display.scss";
+@import "_exchange-display.scss";
+
+.app-container {
+	@extend .container;
+	background-color: #f5f5f5;
+	border: 2px outset lightgrey;
+	width: 80%;
+}
+
+.main-area {
+	@extend .row;
+}
+
+.scientific-key-pad, .numeric-key-pad {
+	@extend .col-md-5;
+	.calc-button-container {
+		@extend .col-md-4;
+	}
+}
+
+.operations-key-pad {
+	@extend .col-md-2;
+	.calc-button-container {
+		@extend .col-md-12;
+	}
+}
+

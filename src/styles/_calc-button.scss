@@ -1,0 +1,15 @@
+.calc-button-container {
+	height: 90px;
+	padding: 15px;
+}
+
+.calc-button {
+	@extend .btn;
+	width: 100%;
+	height: 100%;
+	font-size: 250%;
+}
+
+.calc-button.active {
+	color: blue;
+}
